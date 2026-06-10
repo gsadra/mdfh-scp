@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mdfh-scp"
-version = "0.1.0"
+version = "1.0.0"
 description = "A Multidimensional Fitness Heuristic solver for Set Covering Problems."
 readme = "README.md"
 requires-python = ">=3.10"

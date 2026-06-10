@@ -12,47 +12,16 @@ The implementation is inspired by the heuristic algorithm presented in:
 > Hashemi et al. (2025), "A multidimensional fitness function based heuristic
 > algorithm for set covering problems", Applied Soft Computing.
 
-## Installation from GitHub
-
-You can install and use this project directly from GitHub.
-
-### 1. Clone the Repository
+## Installation
 ```bash
-git clone https://github.com/sadraagholami/mdfh-scp.git
+pip install mdfh-scp
+```
+
+### Development installation
+```bash
+git clone https://github.com/gsadra/mdfh-scp.git
 cd mdfh-scp
-```
-
-### 2. Create a Virtual Environment
-
-It is recommended to use a virtual environment to avoid dependency conflicts.
-
-#### Windows
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-#### Linux / macOS
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Install the Package
-
-Install the package in editable mode:
-
-```bash
-python -m pip install --upgrade pip
-python -m pip install -e .
-```
-
-If you want to install development dependencies, run:
-
-```bash
-python -m pip install -r requirements-dev.txt
+pip install -e .[dev]
 ```
 
 ## Usage
