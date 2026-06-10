@@ -9,3 +9,9 @@
 - Custom exceptions.
 - Basic test suite.
 - Example usage script.
+
+- ## [1.0.0] - 2026-06-10
+
+### Added
+
+- Add Package to PyPi.org
