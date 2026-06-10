@@ -166,7 +166,7 @@ Please keep the code clear, readable, and well documented.
 
 If you find a bug or have a suggestion, please open an issue on GitHub:
 ```text
-https://github.com/sadraagholami/mdfh-scp/issues
+https://github.com/gsadra/mdfh-scp/issues
 
 When reporting a bug, please include:
 
