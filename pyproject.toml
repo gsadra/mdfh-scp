@@ -36,9 +36,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/sadraagholami/mdfh-scp"
-Repository = "https://github.com/sadraagholami/mdfh-scp"
-Issues = "https://github.com/sadraagholami/mdfh-scp/issues"
+Homepage = "https://github.com/gsadra/mdfh-scp"
+Repository = "https://github.com/gsadra/mdfh-scp"
+Issues = "https://github.com/gsadra/mdfh-scp/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/mdfh"]
