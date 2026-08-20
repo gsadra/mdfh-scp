@@ -1,12 +1,12 @@
 """MDFH-SCP package."""
 
-from .solver import MDFHSetCoverSolver
-from .models import MDFHResult
 from .exceptions import (
     MDFHBaseException,
-    MDFHValidationError,
     MDFHSolverError,
+    MDFHValidationError,
 )
+from .models import MDFHResult
+from .solver import MDFHSetCoverSolver
 
 __all__ = [
     "MDFHSetCoverSolver",

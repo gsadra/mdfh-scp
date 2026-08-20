@@ -4,9 +4,9 @@ from __future__ import annotations
 
 import logging
 import time
-from typing import Dict, List, Set
+from typing import Any
 
-from .exceptions import MDFHValidationError, MDFHSolverError
+from .exceptions import MDFHSolverError, MDFHValidationError
 from .models import MDFHResult
 
 logger = logging.getLogger(__name__)
@@ -43,11 +43,11 @@ class MDFHSetCoverSolver:
 
     def __init__(
         self,
-        variables: List[str],
-        fitness_cost_component: Dict[str, float],
-        fitness_time_component: Dict[str, float],
-        fitness_route_component: Dict[str, float],
-        coverage_weight: Dict[str, Set[str]],
+        variables: list[str],
+        fitness_cost_component: dict[str, float],
+        fitness_time_component: dict[str, float],
+        fitness_route_component: dict[str, float],
+        coverage_weight: dict[str, set[str]],
         include_self: bool = True,
     ) -> None:
         self.variables = variables
@@ -80,7 +80,7 @@ class MDFHSetCoverSolver:
         if len(variable_set) != len(self.variables):
             raise MDFHValidationError("The variables list contains duplicate values.")
 
-        required_mappings = {
+        required_mappings: dict[str, dict[str, Any]] = {
             "fitness_cost_component": self.fitness_cost_component,
             "fitness_time_component": self.fitness_time_component,
             "fitness_route_component": self.fitness_route_component,
