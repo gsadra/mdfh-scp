@@ -14,4 +14,12 @@
 
 ### Added
 
-- Add Package to PyPi.org
+- Deployed on pypi.org
+
+- ## [1.0.1] - 2026-08-21
+
+### Added
+
+- Refactor imports
+- Update type hints
+- Update workflows
