@@ -21,6 +21,7 @@ pip install mdfh-scp
 ```bash
 git clone https://github.com/gsadra/mdfh-scp.git
 cd mdfh-scp
+pip install -r requirements-dev.txt
 pip install -e .[dev]
 ```
 
